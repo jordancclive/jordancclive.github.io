@@ -1,0 +1,7 @@
+body {
+  color: hsla(0, 0%, 0%, 0.8);
+  font-family: "Droid Sans", "Droid Serif";
+  font-weight: normal;
+  word-wrap: break-word;
+  font-kerning: normal;
+}
