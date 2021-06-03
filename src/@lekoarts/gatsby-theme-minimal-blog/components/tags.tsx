@@ -3,6 +3,7 @@ import Layout from '@lekoarts/gatsby-theme-minimal-blog/src/components/layout';
 import SEO from '@lekoarts/gatsby-theme-minimal-blog/src/components/seo';
 import useMinimalBlogConfig from '@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config';
 import replaceSlashes from '@lekoarts/gatsby-theme-minimal-blog/src/utils/replaceSlashes';
+import Title from '@lekoarts/gatsby-theme-minimal-blog/src/components/title';
 import { Flex, Grid } from '@theme-ui/components';
 import { graphql, Link, StaticQuery } from 'gatsby';
 import kebabCase from 'lodash.kebabcase';
@@ -24,9 +25,8 @@ const Tags = ({ list = [], withLayout = true }: PostsProps) => {
     return (
       <Layout>
         <SEO title="Tags" />
-        <Heading as="h1" variant="styles.h1">
-          Tags
-        </Heading>
+        <Title text="Tags">
+        </Title>
         <Grid columns={[3]}>
           {list.map((listItem) => (
             <Flex
@@ -64,9 +64,8 @@ const Tags = ({ list = [], withLayout = true }: PostsProps) => {
         `}
         render={(data) => (
           <React.Fragment>
-            <Heading as="h1" variant="styles.h1">
-              Tags
-            </Heading>
+            <Title text="Tags">
+            </Title>
             <br />
             <Grid columns={[3]} gap="0.5rem">
               {(data.allPost.group ?? []).map((listItem) => (
