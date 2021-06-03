@@ -16,6 +16,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/open-sans": "^4.4.2",
     "@lekoarts/gatsby-theme-minimal-blog": "^2.7.3",
     "gatsby": "^2.25.3",
     "gatsby-plugin-gatsby-cloud": "^1.0.1",

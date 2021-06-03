@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("/Users/daplie/project-name/node_modules/@reach/router/index.js"), require("fs"), require("/Users/daplie/project-name/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		module.exports = factory(require("/Users/daplie/projects/newjordanclive.com/node_modules/@reach/router/index.js"), require("fs"), require("/Users/daplie/projects/newjordanclive.com/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["/Users/daplie/project-name/node_modules/@reach/router/index.js", "fs", "/Users/daplie/project-name/node_modules/lodash/merge.js", "path", "react", "react-dom/server", "react-helmet"], factory);
+		define("lib", ["/Users/daplie/projects/newjordanclive.com/node_modules/@reach/router/index.js", "fs", "/Users/daplie/projects/newjordanclive.com/node_modules/lodash/merge.js", "path", "react", "react-dom/server", "react-helmet"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("/Users/daplie/project-name/node_modules/@reach/router/index.js"), require("fs"), require("/Users/daplie/project-name/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		exports["lib"] = factory(require("/Users/daplie/projects/newjordanclive.com/node_modules/@reach/router/index.js"), require("fs"), require("/Users/daplie/projects/newjordanclive.com/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else
-		root["lib"] = factory(root["/Users/daplie/project-name/node_modules/@reach/router/index.js"], root["fs"], root["/Users/daplie/project-name/node_modules/lodash/merge.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
+		root["lib"] = factory(root["/Users/daplie/projects/newjordanclive.com/node_modules/@reach/router/index.js"], root["fs"], root["/Users/daplie/projects/newjordanclive.com/node_modules/lodash/merge.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__, __WEBPACK_EXTERNAL_MODULE_react_helmet__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -107,7 +107,7 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-mdx/gatsby-ssr */ "./node_modules/gatsby-plugin-mdx/gatsby-ssr.js"),
   options: {
     "plugins": [{
-      "resolve": "/Users/daplie/project-name/node_modules/gatsby-remark-images",
+      "resolve": "/Users/daplie/projects/newjordanclive.com/node_modules/gatsby-remark-images",
       "id": "0c1a4f1b-2b47-52f8-b507-0590421487b0",
       "name": "gatsby-remark-images",
       "version": "3.11.1",
@@ -144,7 +144,7 @@ var plugins = [{
     "remarkPlugins": [],
     "rehypePlugins": [],
     "mediaTypes": ["text/markdown", "text/x-markdown"],
-    "root": "/Users/daplie/project-name"
+    "root": "/Users/daplie/projects/newjordanclive.com"
   }
 }, {
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-feed/gatsby-ssr */ "./node_modules/gatsby-plugin-feed/gatsby-ssr.js"),
@@ -3175,10 +3175,10 @@ if (true) {
 /*!*************************************************!*\
   !*** ./node_modules/@emotion/core/package.json ***!
   \*************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bundleDependencies, dependencies, deprecated, description, devDependencies, files, license, main, module, name, peerDependencies, preconstruct, publishConfig, repository, scripts, types, umd:main, version, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, dependencies, description, devDependencies, files, license, main, module, name, peerDependencies, preconstruct, publishConfig, repository, scripts, types, umd:main, version, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@emotion/core@^10.0.0\",\"_id\":\"@emotion/core@10.1.1\",\"_inBundle\":false,\"_integrity\":\"sha512-ZMLG6qpXR8x031NXD8HJqugy/AZSkAuMxxqB46pmAR7ze47MhNJ56cdoX243QPZdGctrdfo+s08yZTiwaUcRKA==\",\"_location\":\"/@emotion/core\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@emotion/core@^10.0.0\",\"name\":\"@emotion/core\",\"escapedName\":\"@emotion%2fcore\",\"scope\":\"@emotion\",\"rawSpec\":\"^10.0.0\",\"saveSpec\":null,\"fetchSpec\":\"^10.0.0\"},\"_requiredBy\":[\"/@theme-ui/color-modes\",\"/@theme-ui/components\",\"/@theme-ui/core\",\"/@theme-ui/mdx\",\"/@theme-ui/theme-provider\"],\"_resolved\":\"https://registry.npmjs.org/@emotion/core/-/core-10.1.1.tgz\",\"_shasum\":\"c956c1365f2f2481960064bcb8c4732e5fb612c3\",\"_spec\":\"@emotion/core@^10.0.0\",\"_where\":\"/Users/daplie/project-name/node_modules/@theme-ui/components\",\"author\":{\"name\":\"mitchellhamilton\",\"email\":\"mitchell@mitchellhamilton.me\"},\"browser\":{\"./dist/core.cjs.js\":\"./dist/core.browser.cjs.js\",\"./dist/core.esm.js\":\"./dist/core.browser.esm.js\"},\"bundleDependencies\":false,\"dependencies\":{\"@babel/runtime\":\"^7.5.5\",\"@emotion/cache\":\"^10.0.27\",\"@emotion/css\":\"^10.0.27\",\"@emotion/serialize\":\"^0.11.15\",\"@emotion/sheet\":\"0.9.4\",\"@emotion/utils\":\"0.11.3\"},\"deprecated\":false,\"description\":\"> Simple styling in React.\",\"devDependencies\":{\"@emotion/styled\":\"^10.0.27\",\"@types/react\":\"^16.8.20\",\"dtslint\":\"^0.3.0\",\"emotion\":\"^10.0.27\",\"emotion-server\":\"^10.0.27\",\"emotion-theming\":\"^10.0.27\",\"html-tag-names\":\"^1.1.2\",\"react\":\"16.14.0\",\"svg-tag-names\":\"^1.1.1\"},\"files\":[\"src\",\"dist\",\"jsx-runtime\",\"jsx-dev-runtime\",\"types\"],\"license\":\"MIT\",\"main\":\"dist/core.cjs.js\",\"module\":\"dist/core.esm.js\",\"name\":\"@emotion/core\",\"peerDependencies\":{\"react\":\">=16.3.0\"},\"preconstruct\":{\"source\":\"src/index.js\",\"entrypoints\":[\".\",\"jsx-runtime\",\"jsx-dev-runtime\"],\"umdName\":\"emotionCore\"},\"publishConfig\":{\"access\":\"public\"},\"repository\":{\"type\":\"git\",\"url\":\"https://github.com/emotion-js/emotion/tree/master/packages/core\"},\"scripts\":{\"test:typescript\":\"dtslint types\"},\"types\":\"types/index.d.ts\",\"umd:main\":\"dist/core.umd.min.js\",\"version\":\"10.1.1\"}");
+module.exports = JSON.parse("{\"_args\":[[\"@emotion/core@10.1.1\",\"/Users/daplie/projects/newjordanclive.com\"]],\"_from\":\"@emotion/core@10.1.1\",\"_id\":\"@emotion/core@10.1.1\",\"_inBundle\":false,\"_integrity\":\"sha512-ZMLG6qpXR8x031NXD8HJqugy/AZSkAuMxxqB46pmAR7ze47MhNJ56cdoX243QPZdGctrdfo+s08yZTiwaUcRKA==\",\"_location\":\"/@emotion/core\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@emotion/core@10.1.1\",\"name\":\"@emotion/core\",\"escapedName\":\"@emotion%2fcore\",\"scope\":\"@emotion\",\"rawSpec\":\"10.1.1\",\"saveSpec\":null,\"fetchSpec\":\"10.1.1\"},\"_requiredBy\":[\"/@theme-ui/color-modes\",\"/@theme-ui/components\",\"/@theme-ui/core\",\"/@theme-ui/mdx\",\"/@theme-ui/theme-provider\"],\"_resolved\":\"https://registry.npmjs.org/@emotion/core/-/core-10.1.1.tgz\",\"_spec\":\"10.1.1\",\"_where\":\"/Users/daplie/projects/newjordanclive.com\",\"author\":{\"name\":\"mitchellhamilton\",\"email\":\"mitchell@mitchellhamilton.me\"},\"browser\":{\"./dist/core.cjs.js\":\"./dist/core.browser.cjs.js\",\"./dist/core.esm.js\":\"./dist/core.browser.esm.js\"},\"dependencies\":{\"@babel/runtime\":\"^7.5.5\",\"@emotion/cache\":\"^10.0.27\",\"@emotion/css\":\"^10.0.27\",\"@emotion/serialize\":\"^0.11.15\",\"@emotion/sheet\":\"0.9.4\",\"@emotion/utils\":\"0.11.3\"},\"description\":\"> Simple styling in React.\",\"devDependencies\":{\"@emotion/styled\":\"^10.0.27\",\"@types/react\":\"^16.8.20\",\"dtslint\":\"^0.3.0\",\"emotion\":\"^10.0.27\",\"emotion-server\":\"^10.0.27\",\"emotion-theming\":\"^10.0.27\",\"html-tag-names\":\"^1.1.2\",\"react\":\"16.14.0\",\"svg-tag-names\":\"^1.1.1\"},\"files\":[\"src\",\"dist\",\"jsx-runtime\",\"jsx-dev-runtime\",\"types\"],\"license\":\"MIT\",\"main\":\"dist/core.cjs.js\",\"module\":\"dist/core.esm.js\",\"name\":\"@emotion/core\",\"peerDependencies\":{\"react\":\">=16.3.0\"},\"preconstruct\":{\"source\":\"src/index.js\",\"entrypoints\":[\".\",\"jsx-runtime\",\"jsx-dev-runtime\"],\"umdName\":\"emotionCore\"},\"publishConfig\":{\"access\":\"public\"},\"repository\":{\"type\":\"git\",\"url\":\"https://github.com/emotion-js/emotion/tree/master/packages/core\"},\"scripts\":{\"test:typescript\":\"dtslint types\"},\"types\":\"types/index.d.ts\",\"umd:main\":\"dist/core.umd.min.js\",\"version\":\"10.1.1\"}");
 
 /***/ }),
 
@@ -76015,9 +76015,9 @@ module.exports = JSON.parse("{\"data\":{\"minimalBlogConfig\":{\"basePath\":\"/\
 /***/ }),
 
 /***/ "@reach/router":
-/*!*********************************************************************************!*\
-  !*** external "/Users/daplie/project-name/node_modules/@reach/router/index.js" ***!
-  \*********************************************************************************/
+/*!************************************************************************************************!*\
+  !*** external "/Users/daplie/projects/newjordanclive.com/node_modules/@reach/router/index.js" ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -76037,9 +76037,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_fs__;
 /***/ }),
 
 /***/ "lodash/merge":
-/*!**************************************************************************!*\
-  !*** external "/Users/daplie/project-name/node_modules/lodash/merge.js" ***!
-  \**************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** external "/Users/daplie/projects/newjordanclive.com/node_modules/lodash/merge.js" ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
