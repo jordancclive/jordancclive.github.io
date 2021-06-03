@@ -1,23 +1,15 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `Jordan Clive`,
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: 'Jordan Clive',
+    siteTitleAlt: 'Jordan Clive',
   },
   plugins: [
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Droid Sans', 'Droid Serif']
-        }
-      }
-    },
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
@@ -99,11 +91,12 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `limelight`,
-          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
+          `source sans pro\:300,400,400i,700`, // you can also specify font weights and styles
+          'Open Sans',
+          'Lora',
         ],
-        display: 'swap'
-      }
+        display: 'swap',
+      },
     },
   ].filter(Boolean),
-}
+};

@@ -1,37 +1,18 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui';
-import { Link } from 'gatsby';
 import Layout from '@lekoarts/gatsby-theme-minimal-blog/src/components/layout';
 import Title from '@lekoarts/gatsby-theme-minimal-blog/src/components/title';
-import Listing from '@lekoarts/gatsby-theme-minimal-blog/src/components/listing';
-import List from '@lekoarts/gatsby-theme-minimal-blog/src/components/list';
 import useMinimalBlogConfig from '@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config';
 import useSiteMetadata from '@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-site-metadata';
-import replaceSlashes from '@lekoarts/gatsby-theme-minimal-blog/src/utils/replaceSlashes';
 import { visuallyHidden } from '@lekoarts/gatsby-theme-minimal-blog/src/styles/utils';
+import replaceSlashes from '@lekoarts/gatsby-theme-minimal-blog/src/utils/replaceSlashes';
+import { Link } from 'gatsby';
+import { jsx } from 'theme-ui';
 // @ts-ignore
 import Hero from '../texts/hero';
-// @ts-ignore
-import Bottom from '../texts/bottom';
+import Listing from './limit-listing';
 import Tags from './tags';
 
-type PostsProps = {
-  posts: {
-    slug: string;
-    title: string;
-    date: string;
-    excerpt: string;
-    description: string;
-    timeToRead?: number;
-    tags?: {
-      name: string;
-      slug: string;
-    }[];
-  }[];
-  [key: string]: any;
-};
-
-const Homepage = ({ posts }: PostsProps) => {
+const Homepage = () => {
   const { basePath, blogPath } = useMinimalBlogConfig();
   const { siteTitle } = useSiteMetadata();
 
@@ -52,7 +33,7 @@ const Homepage = ({ posts }: PostsProps) => {
           Read all posts
         </Link>
       </Title>
-      <Listing posts={posts} showTags={false} />
+      <Listing />
       {/* <List sx={{ variant: `section_bottom` }}>
         <Bottom />
       </List> */}
