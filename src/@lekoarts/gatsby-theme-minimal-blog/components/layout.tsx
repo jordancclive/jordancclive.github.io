@@ -41,27 +41,6 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
           transition: `all 0.3s ease-in-out`,
           color: `text`,
         },
-        p: {
-          fontFamily: 'IBM Plex Sans',
-        },
-        h1: {
-          fontFamily: 'IBM Plex Sans',
-        },
-        h2: {
-          fontFamily: 'IBM Plex Sans',
-        },
-        h3: {
-          fontFamily: 'IBM Plex Sans',
-        },
-        h4: {
-          fontFamily: 'IBM Plex Sans',
-        },
-        h5: {
-          fontFamily: 'IBM Plex Sans',
-        },
-        h6: {
-          fontFamily: 'IBM Plex Sans',
-        },
       })}
     />
     <SEO />
