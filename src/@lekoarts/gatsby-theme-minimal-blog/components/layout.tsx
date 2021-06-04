@@ -23,9 +23,6 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
         html: {
           WebkitTextSizeAdjust: `100%`,
         },
-        body: {
-          fontFamily: 'Open Sans',
-        },
         img: {
           borderStyle: `none`,
         },
@@ -45,25 +42,25 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
           color: `text`,
         },
         p: {
-          fontFamily: 'Lora',
+          fontFamily: 'IBM Plex Sans',
         },
         h1: {
-          fontFamily: 'Open Sans',
+          fontFamily: 'IBM Plex Sans',
         },
         h2: {
-          fontFamily: 'Open Sans',
+          fontFamily: 'IBM Plex Sans',
         },
         h3: {
-          fontFamily: 'Open Sans',
+          fontFamily: 'IBM Plex Sans',
         },
         h4: {
-          fontFamily: 'Open Sans',
+          fontFamily: 'IBM Plex Sans',
         },
         h5: {
-          fontFamily: 'Open Sans',
+          fontFamily: 'IBM Plex Sans',
         },
         h6: {
-          fontFamily: 'Open Sans',
+          fontFamily: 'IBM Plex Sans',
         },
       })}
     />

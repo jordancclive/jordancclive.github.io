@@ -23,15 +23,7 @@ module.exports = {
           {
             title: `Blog`,
             slug: `/blog`,
-          },
-          {
-            title: `Innovation`,
-            slug: `/innovation`,
-          },
-          {
-            title: `Lifelong Learning`,
-            slug: `/lifelong-learning`,
-          },
+          }
         ],
         externalLinks: [
           {
@@ -93,7 +85,7 @@ module.exports = {
         fonts: [
           `source sans pro\:300,400,400i,700`, // you can also specify font weights and styles
           'Open Sans',
-          'Lora',
+          'Sanchez',
         ],
         display: 'swap',
       },

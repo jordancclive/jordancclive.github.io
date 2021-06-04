@@ -220,7 +220,7 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-google-fonts/gatsby-ssr */ "./node_modules/gatsby-plugin-google-fonts/gatsby-ssr.js"),
   options: {
     "plugins": [],
-    "fonts": ["limelight", "source sans pro:300,400,400i,700"],
+    "fonts": ["source sans pro:300,400,400i,700", "Open Sans", "Sanchez"],
     "display": "swap"
   }
 }]; // During bootstrap, we write requires at top of this file which looks like:
@@ -76010,7 +76010,7 @@ module.exports = function(module) {
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"data\":{\"minimalBlogConfig\":{\"basePath\":\"/\",\"blogPath\":\"/blog\",\"postsPath\":\"content/posts\",\"pagesPath\":\"content/pages\",\"tagsPath\":\"/tags\",\"externalLinks\":[{\"name\":\"LinkedIn\",\"url\":\"https://www.linkedin.com/in/jordanclive/\"},{\"name\":\"Twitter\",\"url\":\"https://twitter.com/JordanClive\"}],\"navigation\":[{\"title\":\"Portfolio\",\"slug\":\"/portfolio\"},{\"title\":\"Blog\",\"slug\":\"/blog\"},{\"title\":\"Innovation\",\"slug\":\"/innovation\"},{\"title\":\"Lifelong Learning\",\"slug\":\"/lifelong-learning\"}],\"showLineNumbers\":true,\"showCopyButton\":true}}}");
+module.exports = JSON.parse("{\"data\":{\"minimalBlogConfig\":{\"basePath\":\"/\",\"blogPath\":\"/blog\",\"postsPath\":\"content/posts\",\"pagesPath\":\"content/pages\",\"tagsPath\":\"/tags\",\"externalLinks\":[{\"name\":\"LinkedIn\",\"url\":\"https://www.linkedin.com/in/jordanclive/\"},{\"name\":\"Twitter\",\"url\":\"https://twitter.com/JordanClive\"}],\"navigation\":[{\"title\":\"Portfolio\",\"slug\":\"/portfolio\"},{\"title\":\"Blog\",\"slug\":\"/blog\"}],\"showLineNumbers\":true,\"showCopyButton\":true}}}");
 
 /***/ }),
 
