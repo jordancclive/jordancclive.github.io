@@ -63,6 +63,9 @@ LearnerInterests.com</p></section></div><style data-emotion-css="6x8z6y">.css-6x
             {
               localStorage.setItem("justOnce", "true");
               window.location.reload();
+              setTimeout(function(){
+                localStorage.removeItem('justOnce');
+              }, 1000)
             }
           }
       </script></html>

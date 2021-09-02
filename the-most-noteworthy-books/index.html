@@ -102,6 +102,9 @@ Other synopses: <a href="https://en.wikipedia.org/wiki/Zorba_the_Greek" class="c
             {
               localStorage.setItem("justOnce", "true");
               window.location.reload();
+              setTimeout(function(){
+                localStorage.removeItem('justOnce');
+              }, 1000)
             }
           }
       </script></html>

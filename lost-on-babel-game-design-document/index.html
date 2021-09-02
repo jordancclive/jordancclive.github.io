@@ -235,6 +235,9 @@ I can <strong class="css-0"><strong class="css-0"><strong class="css-0"><strong 
             {
               localStorage.setItem("justOnce", "true");
               window.location.reload();
+              setTimeout(function(){
+                localStorage.removeItem('justOnce');
+              }, 1000)
             }
           }
       </script></html>
