@@ -10,9 +10,9 @@
             {
               localStorage.setItem("justOnce", "true");
               window.location.reload();
-              setTimeout(function(){
-                localStorage.removeItem('justOnce');
-              }, 1000)
             }
+            setTimeout(function(){
+              localStorage.removeItem('justOnce');
+            }, 1000)
           }
       </script></html>
