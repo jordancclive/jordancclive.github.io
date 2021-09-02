@@ -10,22 +10,6 @@ module.exports = {
     siteTitleAlt: 'Jordan Clive',
   },
   plugins: [
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              loading: `eager`,
-              withWebp: true,
-              linkImagesToOriginal: true
-            },
-          },
-        ],
-      },
-    },
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options

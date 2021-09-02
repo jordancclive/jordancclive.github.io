@@ -6,7 +6,7 @@ import Header from '@lekoarts/gatsby-theme-minimal-blog/src/components/header';
 import SEO from '@lekoarts/gatsby-theme-minimal-blog/src/components/seo';
 import SkipNavLink from '@lekoarts/gatsby-theme-minimal-blog/src/components/skip-nav';
 import CodeStyles from '@lekoarts/gatsby-theme-minimal-blog/src/styles/code';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Box, Container, jsx } from 'theme-ui';
 
 import Footer from './footer';
