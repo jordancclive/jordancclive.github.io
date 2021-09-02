@@ -20,7 +20,6 @@ module.exports = {
             options: {
               loading: `eager`,
               withWebp: true,
-              quality: 50,
               linkImagesToOriginal: true
             },
           },
