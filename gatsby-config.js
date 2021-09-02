@@ -10,6 +10,7 @@ module.exports = {
     siteTitleAlt: 'Jordan Clive',
   },
   plugins: [
+    `gatsby-transformer-inline-svg`,
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options

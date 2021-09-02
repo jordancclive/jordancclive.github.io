@@ -14,7 +14,7 @@
     "start": "bash clean-and-run.sh && gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b main"
+    "deploy": "bash clean-and-run.sh && gatsby build && gh-pages -d public -b main"
   },
   "dependencies": {
     "@fontsource/open-sans": "^4.4.2",
@@ -29,6 +29,7 @@
     "gatsby-plugin-sitemap": "^2.5.1",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.13",
+    "gatsby-transformer-inline-svg": "^0.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
