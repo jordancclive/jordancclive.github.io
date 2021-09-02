@@ -3,6 +3,7 @@
 <url> <loc>https://minimal-blog.lekoarts.de/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://minimal-blog.lekoarts.de/applying-statistical-process-control-to-my-ux-mentorship-part-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/applying-statistical-process-control-to-my-ux-mentorship-part-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/the-best-aptitude-and-personal-strength-tests</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/my-favorite-design-books</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -22,10 +23,10 @@
 <url> <loc>https://minimal-blog.lekoarts.de/word-up-games-marketing-videos</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/lost-on-babel-game-design-document</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/portfolio</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://minimal-blog.lekoarts.de/daplie</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://minimal-blog.lekoarts.de/careerfoundry</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://minimal-blog.lekoarts.de/lifelong-learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/innovation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://minimal-blog.lekoarts.de/lifelong-learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://minimal-blog.lekoarts.de/careerfoundry</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://minimal-blog.lekoarts.de/daplie</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/tags/aptitudes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/tags/blockchain</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minimal-blog.lekoarts.de/tags/books</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
