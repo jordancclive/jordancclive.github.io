@@ -10,9 +10,8 @@ Knowing the kids names and referring to them specifically is very engaging for a
             {
               localStorage.setItem("justOnce", "true");
               window.location.reload();
-            }
-            setTimeout(function(){
+            }else{
               localStorage.removeItem('justOnce');
-            }, 1000)
+            }
           }
       </script></html>

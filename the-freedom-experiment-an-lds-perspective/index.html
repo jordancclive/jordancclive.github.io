@@ -10,9 +10,8 @@ You will have to understand a bit of American and Mormon history to follow me he
             {
               localStorage.setItem("justOnce", "true");
               window.location.reload();
-            }
-            setTimeout(function(){
+            }else{
               localStorage.removeItem('justOnce');
-            }, 1000)
+            }
           }
       </script></html>
