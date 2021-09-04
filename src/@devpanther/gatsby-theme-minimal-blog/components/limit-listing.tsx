@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import BlogListItem from '@lekoarts/gatsby-theme-minimal-blog/src/components/blog-list-item';
+import BlogListItem from '@devpanther/gatsby-theme-minimal-blog/src/components/blog-list-item';
 import { StaticQuery, graphql } from 'gatsby';
 
 type ListingProps = {
@@ -28,7 +28,8 @@ const Listing = ({ className = ``, showTags = true }: ListingProps) => (
         }
       }
     `}
-    render={(data) => {
+    render={(data) =>
+    {
       return (
         <section sx={{ mb: [5, 6, 7] }} className={className}>
           {(data.allPost.nodes ?? []).map((post) => (

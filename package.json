@@ -11,14 +11,15 @@
     "develop": "gatsby develop",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
-    "start": "bash clean-and-run.sh && gatsby develop",
+    "start": "bash clean-and-run.sh && gatsby develop -p 8900",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "deploy": "bash clean-and-run.sh && gatsby build && gh-pages -d public -b main"
   },
   "dependencies": {
+    "@devpanther/gatsby-theme-minimal-blog": "^2.7.6",
+    "@devpanther/gatsby-theme-minimal-blog-core": "^2.7.6",
     "@fontsource/open-sans": "^4.4.2",
-    "@lekoarts/gatsby-theme-minimal-blog": "^2.7.3",
     "eslint": "^7.32.0",
     "fs-extra": "^10.0.0",
     "gatsby": "^2.25.3",
