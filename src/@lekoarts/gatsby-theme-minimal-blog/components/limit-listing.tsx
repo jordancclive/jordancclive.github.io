@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import BlogListItem from '@devpanther/gatsby-theme-minimal-blog/src/components/blog-list-item';
+import BlogListItem from '@lekoarts/gatsby-theme-minimal-blog/src/components/blog-list-item';
 import { StaticQuery, graphql } from 'gatsby';
 
 type ListingProps = {
