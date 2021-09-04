@@ -2,10 +2,10 @@
 import 'typeface-ibm-plex-sans';
 
 import { Global } from '@emotion/core';
-import Header from '@devpanther/gatsby-theme-minimal-blog/src/components/header';
-import SEO from '@devpanther/gatsby-theme-minimal-blog/src/components/seo';
-import SkipNavLink from '@devpanther/gatsby-theme-minimal-blog/src/components/skip-nav';
-import CodeStyles from '@devpanther/gatsby-theme-minimal-blog/src/styles/code';
+import Header from '@lekoarts/gatsby-theme-minimal-blog/src/components/header';
+import SEO from '@lekoarts/gatsby-theme-minimal-blog/src/components/seo';
+import SkipNavLink from '@lekoarts/gatsby-theme-minimal-blog/src/components/skip-nav';
+import CodeStyles from '@lekoarts/gatsby-theme-minimal-blog/src/styles/code';
 import React, { useEffect } from 'react';
 import { Box, Container, jsx } from 'theme-ui';
 

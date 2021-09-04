@@ -17,8 +17,7 @@
     "deploy": "bash clean-and-run.sh && gatsby build && gh-pages -d public -b main"
   },
   "dependencies": {
-    "@devpanther/gatsby-theme-minimal-blog": "^2.7.6",
-    "@devpanther/gatsby-theme-minimal-blog-core": "^2.7.6",
+    "@lekoarts/gatsby-theme-minimal-blog": "^2.7.3",
     "@fontsource/open-sans": "^4.4.2",
     "eslint": "^7.32.0",
     "fs-extra": "^10.0.0",

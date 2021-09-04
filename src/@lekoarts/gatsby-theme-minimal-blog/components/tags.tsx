@@ -1,9 +1,9 @@
 /** @jsx jsx */
-import Layout from '@devpanther/gatsby-theme-minimal-blog/src/components/layout';
-import SEO from '@devpanther/gatsby-theme-minimal-blog/src/components/seo';
-import useMinimalBlogConfig from '@devpanther/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config';
-import replaceSlashes from '@devpanther/gatsby-theme-minimal-blog/src/utils/replaceSlashes';
-import Title from '@devpanther/gatsby-theme-minimal-blog/src/components/title';
+import Layout from '@lekoarts/gatsby-theme-minimal-blog/src/components/layout';
+import SEO from '@lekoarts/gatsby-theme-minimal-blog/src/components/seo';
+import useMinimalBlogConfig from '@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config';
+import replaceSlashes from '@lekoarts/gatsby-theme-minimal-blog/src/utils/replaceSlashes';
+import Title from '@lekoarts/gatsby-theme-minimal-blog/src/components/title';
 import { Flex, Grid } from '@theme-ui/components';
 import { graphql, Link, StaticQuery } from 'gatsby';
 import kebabCase from 'lodash.kebabcase';
