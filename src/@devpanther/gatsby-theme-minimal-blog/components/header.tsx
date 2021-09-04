@@ -1,19 +1,21 @@
 /** @jsx jsx */
-import HeaderExternalLinks from '@lekoarts/gatsby-theme-minimal-blog/src/components//header-external-links';
-import HeaderTitle from '@lekoarts/gatsby-theme-minimal-blog/src/components//header-title';
-import Navigation from '@lekoarts/gatsby-theme-minimal-blog/src/components//navigation';
-import ColorModeToggle from '@lekoarts/gatsby-theme-minimal-blog/src/components/colormode-toggle';
-import useMinimalBlogConfig from '@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config';
+import HeaderExternalLinks from '@devpanther/gatsby-theme-minimal-blog/src/components//header-external-links';
+import HeaderTitle from '@devpanther/gatsby-theme-minimal-blog/src/components//header-title';
+import Navigation from '@devpanther/gatsby-theme-minimal-blog/src/components//navigation';
+import ColorModeToggle from '@devpanther/gatsby-theme-minimal-blog/src/components/colormode-toggle';
+import useMinimalBlogConfig from '@devpanther/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config';
 import { Flex } from '@theme-ui/components';
 import { useColorMode, jsx } from 'theme-ui';
 
-const Header = () => {
+const Header = () =>
+{
   const { navigation: nav } = useMinimalBlogConfig();
   const [colorMode, setColorMode] = useColorMode();
 
   const isDark = colorMode === `dark`;
 
-  if (!isDark) {
+  if (!isDark)
+  {
     setColorMode('dark');
   }
   //   const toggleColorMode = (e: any) => {
