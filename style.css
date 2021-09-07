@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+  .image-mobile-res img:not(:first-child) {
+    display: none !important;
+  }
+
+  .image-mobile-res img:first-child {
+    width: 100% !important;
+  }
+
+  .scroll {
+    margin: 0px auto;
+    overflow-y: hidden;
+  }
+}
