@@ -57,7 +57,7 @@ const SEO = ({
             <meta name="twitter:image" content={seo.image} />
             <meta name="twitter:image:alt" content={seo.description} />
             <meta name="twitter:creator" content={author} />
-            <link rel="stylesheet" href='/style.css' />
+            <link rel="stylesheet" href='/aatostyle/style.css' />
             <meta name="gatsby-theme" content="@devpanther/gatsby-theme-minimal-blog" />
             <link rel="icon" type="image/png" sizes="32x32" href={withPrefix(`/favicon-32x32.png`)} />
             <link rel="icon" type="image/png" sizes="16x16" href={withPrefix(`/favicon-16x16.png`)} />
