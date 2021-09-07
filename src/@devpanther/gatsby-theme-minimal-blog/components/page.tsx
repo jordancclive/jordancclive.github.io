@@ -20,7 +20,6 @@ type PageProps = {
 
 const Page = ({ data: { page } }: PageProps) =>
 {
-    console.log(page)
     return (
         <Layout>
             <SEO
