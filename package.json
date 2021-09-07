@@ -14,7 +14,7 @@
     "start": "bash clean-and-run.sh && gatsby develop -p 8900",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "bash clean-and-run.sh && gatsby build && gh-pages -d public -b main"
+    "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "dependencies": {
     "@devpanther/gatsby-theme-minimal-blog": "^2.8.0",
