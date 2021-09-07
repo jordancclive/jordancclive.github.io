@@ -21,13 +21,7 @@ type PostProps = {
             body: string,
             excerpt: string,
             timeToRead?: number,
-            banner?: {
-                childImageSharp: {
-                    resize: {
-                        src: string
-                    }
-                }
-            }
+            banner?: string
         }
     }
 }

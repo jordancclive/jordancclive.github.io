@@ -9,7 +9,7 @@ type SEOProps = {
     pathname?: string,
     image?: string,
     children?: React.ReactNode,
-    canonicalUrl?: string
+    canonicalUrl?: string,
 }
 
 const SEO = ({

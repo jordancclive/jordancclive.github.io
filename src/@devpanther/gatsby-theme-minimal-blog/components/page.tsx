@@ -11,7 +11,8 @@ type PageProps = {
             slug: string,
             excerpt: string,
             body: string,
-            banner?: string
+            banner?: string,
+            description?: string
         }
     },
     [key: string]: any
@@ -19,10 +20,15 @@ type PageProps = {
 
 const Page = ({ data: { page } }: PageProps) =>
 {
-    console.log(page.banner)
+    console.log(page)
     return (
         <Layout>
-            <SEO title={page.title} description={page.excerpt} image={page.banner ? page.banner : undefined} />
+            <SEO
+                title={page.title}
+                description={page.description ? page.description : page.excerpt}
+                image={page.banner ? page.banner : undefined}
+                pathname={page.slug}
+            />
             <Heading as="h1" variant="styles.h1">
                 {page.title}
             </Heading>
