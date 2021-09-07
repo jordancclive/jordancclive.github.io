@@ -1,14 +1,14 @@
 /** @jsx jsx */
-import Layout from '@lekoarts/gatsby-theme-minimal-blog/src/components/layout';
-import SEO from '@lekoarts/gatsby-theme-minimal-blog/src/components/seo';
-import useMinimalBlogConfig from '@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config';
-import replaceSlashes from '@lekoarts/gatsby-theme-minimal-blog/src/utils/replaceSlashes';
-import Title from '@lekoarts/gatsby-theme-minimal-blog/src/components/title';
+import Layout from '@devpanther/gatsby-theme-minimal-blog/src/components/layout';
+import SEO from '@devpanther/gatsby-theme-minimal-blog/src/components/seo';
+import useMinimalBlogConfig from '@devpanther/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config';
+import replaceSlashes from '@devpanther/gatsby-theme-minimal-blog/src/utils/replaceSlashes';
+import Title from '@devpanther/gatsby-theme-minimal-blog/src/components/title';
 import { Flex, Grid } from '@theme-ui/components';
 import { graphql, Link, StaticQuery } from 'gatsby';
 import kebabCase from 'lodash.kebabcase';
-import React, { useState, useEffect } from 'react';
-import { Heading, jsx, Link as TLink } from 'theme-ui';
+import React, { useState } from 'react';
+import { jsx, Link as TLink } from 'theme-ui';
 
 type PostsProps = {
   list?: {
@@ -17,13 +17,6 @@ type PostsProps = {
   }[];
   withLayout: boolean;
 };
-
-enum SORT_BY
-{
-  ALPHABETICALLY_ASC = 0,
-  ALPHABETICALLY_DESC = 1,
-  COUNT = 2,
-}
 
 const Tags = ({ list = [], withLayout = true }: PostsProps) =>
 {
