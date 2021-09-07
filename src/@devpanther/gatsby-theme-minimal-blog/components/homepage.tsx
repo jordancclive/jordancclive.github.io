@@ -1,10 +1,10 @@
 /** @jsx jsx */
-import Layout from '@lekoarts/gatsby-theme-minimal-blog/src/components/layout';
-import Title from '@lekoarts/gatsby-theme-minimal-blog/src/components/title';
-import useMinimalBlogConfig from '@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config';
-import useSiteMetadata from '@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-site-metadata';
-import { visuallyHidden } from '@lekoarts/gatsby-theme-minimal-blog/src/styles/utils';
-import replaceSlashes from '@lekoarts/gatsby-theme-minimal-blog/src/utils/replaceSlashes';
+import Layout from '@devpanther/gatsby-theme-minimal-blog/src/components/layout';
+import Title from '@devpanther/gatsby-theme-minimal-blog/src/components/title';
+import useMinimalBlogConfig from '@devpanther/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config';
+import useSiteMetadata from '@devpanther/gatsby-theme-minimal-blog/src/hooks/use-site-metadata';
+import { visuallyHidden } from '@devpanther/gatsby-theme-minimal-blog/src/styles/utils';
+import replaceSlashes from '@devpanther/gatsby-theme-minimal-blog/src/utils/replaceSlashes';
 import { Link } from 'gatsby';
 import { jsx } from 'theme-ui';
 // @ts-ignore
