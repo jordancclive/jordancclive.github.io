@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{"5D3Q":function(t,a,n){"use strict";n.r(a);var e=n("q1tI"),s=n.n(e),c=n("pd6t");a.default=function(t){var a=Object.assign({},t),n=a.data.allPost;return s.a.createElement(c.a,Object.assign({list:n.group},a))}}}]);
-//# sourceMappingURL=component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tags-query-tsx-b8918b5d411915c987c9.js.map
