@@ -17,6 +17,10 @@ module.exports = {
         formatString: `YYYY.MM.DD`,
         navigation: [
           {
+            title: `Bio`,
+            slug: `/bio`,
+          },
+          {
             title: `Portfolio`,
             slug: `/portfolio`,
           },
