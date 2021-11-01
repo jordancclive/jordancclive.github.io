@@ -5,6 +5,10 @@ require(`dotenv`).config({
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
+  flags: {
+    PRESERVE_FILE_DOWNLOAD_CACHE: true,
+    DEV_WEBPACK_CACHE: true
+  },
   siteMetadata: {
     siteTitle: 'Jordan Clive',
     siteTitleAlt: 'Jordan Clive',
