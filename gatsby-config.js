@@ -21,12 +21,20 @@ module.exports = {
             slug: `/bio`,
           },
           {
-            title: `Portfolio`,
-            slug: `/portfolio`,
-          },
-          {
             title: `Blog`,
             slug: `/blog`,
+          },
+          {
+            title: `For Hire`,
+            slug: `/for-hire`,
+          },
+          {
+            title: `Mentorship`,
+            slug: `/mentorship`,
+          },
+          {
+            title: `Portfolio`,
+            slug: `/portfolio`,
           }
         ],
         externalLinks: [
