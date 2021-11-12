@@ -18,7 +18,8 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
     <Global
       styles={(theme) => ({
         '*': {
-          boxSizing: `inherit`,
+          boxSizing: 'inherit',
+          fontFamily: 'Inter, sans-serif',
         },
         html: {
           WebkitTextSizeAdjust: `100%`,

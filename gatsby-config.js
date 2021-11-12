@@ -7,7 +7,7 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 module.exports = {
   flags: {
     PRESERVE_FILE_DOWNLOAD_CACHE: true,
-    DEV_WEBPACK_CACHE: true
+    DEV_WEBPACK_CACHE: true,
   },
   siteMetadata: {
     siteTitle: 'Jordan Clive',
@@ -39,7 +39,7 @@ module.exports = {
           {
             title: `Portfolio`,
             slug: `/portfolio`,
-          }
+          },
         ],
         externalLinks: [
           {
@@ -99,9 +99,10 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `source sans pro:300,400,400i,700`, // you can also specify font weights and styles
-          'Open Sans',
-          'Sanchez',
+          // `source sans pro:300,400,400i,700`, // you can also specify font weights and styles
+          // 'Open Sans',
+          // 'Sanchez',
+          'Inter',
         ],
         display: 'swap',
       },

@@ -28,8 +28,7 @@ const Listing = ({ className = ``, showTags = true }: ListingProps) => (
         }
       }
     `}
-    render={(data) =>
-    {
+    render={(data) => {
       return (
         <section sx={{ mb: [5, 6, 7] }} className={className}>
           {(data.allPost.nodes ?? []).map((post) => (

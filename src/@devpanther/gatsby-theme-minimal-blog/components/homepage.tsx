@@ -12,8 +12,7 @@ import Hero from '../texts/hero';
 import Listing from './limit-listing';
 import Tags from './tags';
 
-const Homepage = () =>
-{
+const Homepage = () => {
   const { basePath, blogPath } = useMinimalBlogConfig();
   const { siteTitle } = useSiteMetadata();
 
