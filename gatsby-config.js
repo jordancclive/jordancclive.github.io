@@ -30,7 +30,7 @@ module.exports = {
           },
           {
             title: `UX Mentorship`,
-            slug: `/ux-mentorship`,
+            slug: `/mentorship`,
           },
           {
             title: `Portfolio`,
