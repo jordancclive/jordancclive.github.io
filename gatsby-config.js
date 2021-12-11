@@ -29,8 +29,8 @@ module.exports = {
             slug: `/blog`,
           },
           {
-            title: `UX Mentorship`,
-            slug: `/mentorship`,
+            title: `Mentorship`,
+            slug: `/design-mentorship`,
           },
           {
             title: `Portfolio`,
