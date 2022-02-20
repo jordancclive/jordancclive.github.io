@@ -66,6 +66,15 @@
   Link: </component---node-modules-devpanther-gatsby-theme-minimal-blog-core-src-templates-tags-query-tsx-759f208ae9d523aa2eef.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/page-data.json>; rel=preload; as=fetch; crossorigin
+/mapping-your-work-search
+  Link: </webpack-runtime-41aa57c3fe911af740a8.js>; rel=preload; as=script
+  Link: </framework-beda7bde9d7dca0755ce.js>; rel=preload; as=script
+  Link: </app-c3c382ec0d4f56c9949a.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </b23031356be1730773ef1248daac8153c3da910e-d7d07840acdab4658c02.js>; rel=preload; as=script
+  Link: </component---node-modules-devpanther-gatsby-theme-minimal-blog-core-src-templates-post-query-tsx-8dbd888e79bfa8f65fb4.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/mapping-your-work-search/page-data.json>; rel=preload; as=fetch; crossorigin
 /what-a-happy-company-looks-like-joining-open-zeppelin
   Link: </webpack-runtime-41aa57c3fe911af740a8.js>; rel=preload; as=script
   Link: </framework-beda7bde9d7dca0755ce.js>; rel=preload; as=script
@@ -345,6 +354,15 @@
   Link: </component---node-modules-devpanther-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-b7eeec17316eea2ed1d4.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/books/page-data.json>; rel=preload; as=fetch; crossorigin
+/tags/career
+  Link: </webpack-runtime-41aa57c3fe911af740a8.js>; rel=preload; as=script
+  Link: </framework-beda7bde9d7dca0755ce.js>; rel=preload; as=script
+  Link: </app-c3c382ec0d4f56c9949a.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </b23031356be1730773ef1248daac8153c3da910e-d7d07840acdab4658c02.js>; rel=preload; as=script
+  Link: </component---node-modules-devpanther-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-b7eeec17316eea2ed1d4.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/tags/career/page-data.json>; rel=preload; as=fetch; crossorigin
 /tags/children
   Link: </webpack-runtime-41aa57c3fe911af740a8.js>; rel=preload; as=script
   Link: </framework-beda7bde9d7dca0755ce.js>; rel=preload; as=script
@@ -480,6 +498,15 @@
   Link: </component---node-modules-devpanther-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-b7eeec17316eea2ed1d4.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/lifelong-learning/page-data.json>; rel=preload; as=fetch; crossorigin
+/tags/mapping
+  Link: </webpack-runtime-41aa57c3fe911af740a8.js>; rel=preload; as=script
+  Link: </framework-beda7bde9d7dca0755ce.js>; rel=preload; as=script
+  Link: </app-c3c382ec0d4f56c9949a.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </b23031356be1730773ef1248daac8153c3da910e-d7d07840acdab4658c02.js>; rel=preload; as=script
+  Link: </component---node-modules-devpanther-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-b7eeec17316eea2ed1d4.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/tags/mapping/page-data.json>; rel=preload; as=fetch; crossorigin
 /tags/mothers
   Link: </webpack-runtime-41aa57c3fe911af740a8.js>; rel=preload; as=script
   Link: </framework-beda7bde9d7dca0755ce.js>; rel=preload; as=script
