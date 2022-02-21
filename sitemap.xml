@@ -3,7 +3,7 @@
 <url> <loc>https://jordancclive.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jordancclive.github.io/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jordancclive.github.io/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://jordancclive.github.io/mapping-your-work-search</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jordancclive.github.io/mapping-your-path-to-the-best-place-to-work</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jordancclive.github.io/what-a-happy-company-looks-like-joining-open-zeppelin</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jordancclive.github.io/statistical-process-control-applied-to-design-mentorship-part-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jordancclive.github.io/the-influence-of-mothers-and-women-of-god</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -47,6 +47,7 @@
 <url> <loc>https://jordancclive.github.io/tags/family</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jordancclive.github.io/tags/freedom</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jordancclive.github.io/tags/hardware</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jordancclive.github.io/tags/ikigai</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jordancclive.github.io/tags/information-architecture</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jordancclive.github.io/tags/innovation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jordancclive.github.io/tags/interaction-design</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -54,6 +55,7 @@
 <url> <loc>https://jordancclive.github.io/tags/mapping</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jordancclive.github.io/tags/mothers</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jordancclive.github.io/tags/music</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jordancclive.github.io/tags/networking</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jordancclive.github.io/tags/open-zeppelin</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jordancclive.github.io/tags/research</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jordancclive.github.io/tags/statistical-process-control</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
