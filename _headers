@@ -282,7 +282,7 @@
   Link: </component---node-modules-devpanther-gatsby-theme-minimal-blog-core-src-templates-page-query-tsx-df119f79d0799a6c6cb6.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/lifelong-learning/page-data.json>; rel=preload; as=fetch; crossorigin
-/design-mentorship
+/careerfoundry
   Link: </webpack-runtime-41aa57c3fe911af740a8.js>; rel=preload; as=script
   Link: </framework-beda7bde9d7dca0755ce.js>; rel=preload; as=script
   Link: </app-c3c382ec0d4f56c9949a.js>; rel=preload; as=script
@@ -290,7 +290,7 @@
   Link: </b23031356be1730773ef1248daac8153c3da910e-d7d07840acdab4658c02.js>; rel=preload; as=script
   Link: </component---node-modules-devpanther-gatsby-theme-minimal-blog-core-src-templates-page-query-tsx-df119f79d0799a6c6cb6.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/design-mentorship/page-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/careerfoundry/page-data.json>; rel=preload; as=fetch; crossorigin
 /bio
   Link: </webpack-runtime-41aa57c3fe911af740a8.js>; rel=preload; as=script
   Link: </framework-beda7bde9d7dca0755ce.js>; rel=preload; as=script
@@ -300,6 +300,15 @@
   Link: </component---node-modules-devpanther-gatsby-theme-minimal-blog-core-src-templates-page-query-tsx-df119f79d0799a6c6cb6.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/bio/page-data.json>; rel=preload; as=fetch; crossorigin
+/design-mentorship
+  Link: </webpack-runtime-41aa57c3fe911af740a8.js>; rel=preload; as=script
+  Link: </framework-beda7bde9d7dca0755ce.js>; rel=preload; as=script
+  Link: </app-c3c382ec0d4f56c9949a.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </b23031356be1730773ef1248daac8153c3da910e-d7d07840acdab4658c02.js>; rel=preload; as=script
+  Link: </component---node-modules-devpanther-gatsby-theme-minimal-blog-core-src-templates-page-query-tsx-df119f79d0799a6c6cb6.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/design-mentorship/page-data.json>; rel=preload; as=fetch; crossorigin
 /revunit
   Link: </webpack-runtime-41aa57c3fe911af740a8.js>; rel=preload; as=script
   Link: </framework-beda7bde9d7dca0755ce.js>; rel=preload; as=script
@@ -318,15 +327,6 @@
   Link: </component---node-modules-devpanther-gatsby-theme-minimal-blog-core-src-templates-page-query-tsx-df119f79d0799a6c6cb6.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/daplie/page-data.json>; rel=preload; as=fetch; crossorigin
-/careerfoundry
-  Link: </webpack-runtime-41aa57c3fe911af740a8.js>; rel=preload; as=script
-  Link: </framework-beda7bde9d7dca0755ce.js>; rel=preload; as=script
-  Link: </app-c3c382ec0d4f56c9949a.js>; rel=preload; as=script
-  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
-  Link: </b23031356be1730773ef1248daac8153c3da910e-d7d07840acdab4658c02.js>; rel=preload; as=script
-  Link: </component---node-modules-devpanther-gatsby-theme-minimal-blog-core-src-templates-page-query-tsx-df119f79d0799a6c6cb6.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/careerfoundry/page-data.json>; rel=preload; as=fetch; crossorigin
 /tags/aptitudes
   Link: </webpack-runtime-41aa57c3fe911af740a8.js>; rel=preload; as=script
   Link: </framework-beda7bde9d7dca0755ce.js>; rel=preload; as=script
